@@ -1,0 +1,105 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 8%;
+}
+
+.main {
+  background: lightgray;
+  padding-left: 20px;
+}
+
+.container-item {
+  flex-direction: column;
+  flex: 1;
+}
+
+.container-side {
+  display: flex;
+  flex-direction: column;
+  background-color: #2E7B8F;
+  flex: initial;
+  width: 250px;
+  text-align: center;
+}
+
+.icon, h3 {
+  color: #286C7C;
+}
+
+
+li i {
+  color: white;
+}
+
+p.company {
+  margin: 0;
+  font-size: 14px;
+  color: slategray;
+}
+
+p.role-details {
+  margin: 10px 0 40px 0;
+  width: 95%;
+}
+
+img {
+  margin-top: 25px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h1, h5, h6 {
+  color: white;
+}
+
+.school {
+  color: lightgray;
+  font-weight:100
+}
+
+h6 {
+  margin: 5px 0 0 40px;
+}
+
+h5{
+  margin-top: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+h1 {
+  margin: 10px 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 11px
+}
+
+li i:hover, a:hover {
+  color: lightgray;
+}
+
+ul {
+  list-style: none;
+}
+
+.contact, .education {
+  padding: 20px 0;
+  text-align: left;
+  margin: 15px;
+  background: #49A9BE;
+}
+
+h5, li {
+  margin: 15px 40px;
+}
