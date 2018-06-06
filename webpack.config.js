@@ -27,5 +27,11 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, './index.html')
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: { index: '/' },
+      headers: {
+          'Access-Control-Allow-Origin': '*'
+      }
+  }
 }
