@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const Sidebar = () => {
-  return (
+const Sidebar = () => (
+ (
     <div className=' container container-item container-side'>
      <div>
        <img src="../profile.jpg" alt="Profile" />
@@ -26,7 +26,7 @@ const Sidebar = () => {
        </div>
      </div>
     </div>
-  );
-}
+  )
+)
 
 export default Sidebar;

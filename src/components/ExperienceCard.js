@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const ExperienceCard = ({ role, company, details, id }) => {
-  return (
+const ExperienceCard = ({role, company, details, id}) => (
+   (
     <div>
       <div>
         <h4>{role}</h4>
@@ -10,7 +10,7 @@ const ExperienceCard = ({ role, company, details, id }) => {
         <p>{details}</p>
       </div>
     </div>
-  );
-}
+  )
+)
 
 export default ExperienceCard;

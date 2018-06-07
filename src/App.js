@@ -4,6 +4,8 @@ import Profile from './components/Profile'
 import ExperienceList from './components/ExperienceList'
 import ExperienceCard from './components/ExperienceCard'
 import Sidebar from './components/Sidebar'
+import SectionHeader from './components/SectionHeader'
+import experience from './experience.js'
 
 class App extends Component {
   constructor() {
@@ -13,9 +15,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h3 className="container-item"><i className="icon fas fa-user-circle fa-lg"></i> CAREER PROFILE</h3>
+        <SectionHeader name="CAREER PROFILE" icon="icon fas fa-user-circle fa-lg" />
         <Profile />
-        <h3 className="container-item"><i className="icon fas fa-briefcase fa-lg"></i> EXPERIENCE</h3>
+        <SectionHeader name="EXPERIENCE" icon="icon fas fa-briefcase fa-lg"/>
         <ExperienceList />
         <Sidebar />
       </div>
