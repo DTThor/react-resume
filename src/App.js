@@ -6,6 +6,7 @@ import ExperienceCard from './components/ExperienceCard'
 import Sidebar from './components/Sidebar'
 import SectionHeader from './components/SectionHeader'
 import experience from './experience.js'
+import styles from './styles.styl'
 
 class App extends Component {
   constructor() {

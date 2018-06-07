@@ -1,0 +1,27 @@
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  background: #d3d3d3;
+  padding-left: 20px;
+}
+.container-item {
+  flex-direction: column;
+  flex: 1;
+}
+.container-item .icon,
+.container-item h3 {
+  color: #286c7c;
+}
+.container-side {
+  display: flex;
+  flex-direction: column;
+  background-color: #2e7b8f;
+  flex: initial;
+  width: 250px;
+  text-align: center;
+}

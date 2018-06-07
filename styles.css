@@ -16,7 +16,7 @@ html {
   flex-direction: column;
   flex: 1;
 }
-
+  
 .container-side {
   display: flex;
   flex-direction: column;
@@ -26,7 +26,8 @@ html {
   text-align: center;
 }
 
-.icon, h3 {
+.icon,
+h3 {
   color: #286C7C;
 }
 
