@@ -1,12 +1,12 @@
 import React from 'react';
 
 
-const SectionHeader = (props) => {
-  return (
+const SectionHeader = ({name, icon}) => (
+  (
     <div className="container container-item">
-      <h3 className="container-item"><i className={props.icon}></i> {props.name}</h3>
+      <h3 className="container-item"><i className={icon}></i> {name}</h3>
     </div>
-  );
-}
+  )
+)
 
 export default SectionHeader;
