@@ -12,6 +12,14 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.scss$/,
+        use: [
+            "style-loader",
+            "css-loader",
+            "sass-loader"
+        ]
+      },
+      {
         test: /\.json$/,
         loader: 'json-loader'
       },
@@ -29,7 +37,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, './index.html')
-    })
+    }),
   ],
   devServer: {
     historyApiFallback: { index: '/' },

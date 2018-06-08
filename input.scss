@@ -1,5 +1,9 @@
+$font-stack: Arial, sans-serif;
+$primary-background-color: lightgray;
+$sidebar-background: #2E7B8F;
+
 html {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font: 100% $font-stack;
 }
 
 .container {
@@ -8,7 +12,7 @@ html {
 }
 
 .main {
-  background: lightgray;
+  background: $primary-background-color;
   padding-left: 20px;
 }
 
@@ -20,7 +24,7 @@ html {
 .container-side {
   display: flex;
   flex-direction: column;
-  background-color: #2E7B8F;
+  background-color: $sidebar-background;
   flex: initial;
   width: 250px;
   text-align: center;
