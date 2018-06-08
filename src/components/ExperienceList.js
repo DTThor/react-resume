@@ -4,7 +4,7 @@ import experience from '../experience.js'
 
 const ExperienceList = () => (
   (
-    <div className=" container container-item">
+    <div className="container container-item">
       {
         experience.map((user, i) => (
           (
