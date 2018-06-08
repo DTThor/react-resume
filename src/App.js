@@ -17,9 +17,7 @@ class App extends Component {
     return (
       <div className="container">
         <div className="main">
-          <SectionHeader name="CAREER PROFILE" icon="icon fas fa-user-circle fa-lg" />
           <Profile />
-          <SectionHeader name="EXPERIENCE" icon="icon fas fa-briefcase fa-lg"/>
           <ExperienceList />
         </div>
         <div className="container-item container-side">
